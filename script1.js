@@ -17,5 +17,6 @@ h1.style.fontSize = '50px';
 // document.getElementsByClassName()  -> HTMLCollection
 const p1 = document.getElementsByClassName('p1')[0];
 p1.innerHTML = 'ini di ubah di Java Script'
+p1.style.fontSize = '30px'
 
 
