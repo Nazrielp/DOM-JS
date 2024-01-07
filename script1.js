@@ -10,8 +10,6 @@ const p = document.getElementsByTagName('p');
 p[0].style.backgroundColor = 'lightblue';
 p[1].style.backgroundColor = 'lightblue';
 p[2].style.backgroundColor = 'lightblue';
-p[3].style.backgroundColor = 'lightblue';
-
 
 const h1 = document.getElementsByTagName('h1')[0];
 h1.style.fontSize = '50px';
@@ -24,11 +22,15 @@ p1.style.fontSize = '30px';
 // menberikan style di Java script
 // document.querySelector() -> Element
 const p4 = document.querySelector('#b p');
-p4.style.color = 'red';
+p4.style.backgroundColor = 'red';
 
 const li2 = document.querySelector('section#b ul li:nth-child(2)');
 li2.style.backgroundColor = 'orange';
 
 // document.querySelectorAll() -> nodelist
 const p2 = document.querySelectorAll('section#a p');
-p2[2].style.color = 'yellow';
+for( let i = 0; i < p.length; i++) {
+    p2[i].style.color = 'green';
+
+}
+
