@@ -5,7 +5,6 @@ const sectionA = document.querySelector ('section#a')
 sectionA.innerHTML = 'Zriel ganteng'
 
 
-
 // element.style.<properti css>
 const h1 = document.querySelector('#judul');
 h1.style.backgroundColor = 'black';
